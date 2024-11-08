@@ -4,6 +4,7 @@
   "description": "Este repositorio es tu punto de partida ideal para proyectos de Node.js. Está equipado con herramientas modernas para optimizar y mejorar tu experiencia de desarrollo.",
   "type": "module",
   "scripts": {
+    "start": "node dist/server.js",
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "lint": "eslint src",
